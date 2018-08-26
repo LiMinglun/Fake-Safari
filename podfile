@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '11.0'
+use_frameworks!
+
+target 'Project0v1' do
+pod "BouncyLayout"
+pod 'Material', '~> 2.0'
+pod 'Persei', '~> 3.1'
+pod 'Graph', '~> 2.0'
+pod 'SwipeCellKit'
+pod 'SCLAlertView', :git => 'https://github.com/vikmeup/SCLAlertView-Swift', :branch => 'master'
+end
