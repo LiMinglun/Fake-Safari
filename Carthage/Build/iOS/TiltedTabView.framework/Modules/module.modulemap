@@ -1,0 +1,11 @@
+framework module TiltedTabView {
+  umbrella header "TiltedTabView.h"
+
+  export *
+  module * { export * }
+}
+
+module TiltedTabView.Swift {
+    header "TiltedTabView-Swift.h"
+    requires objc
+}
